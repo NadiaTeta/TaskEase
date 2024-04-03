@@ -32,7 +32,7 @@ button {
     width: 100%;
     padding: 10px;
     background-color: blue;
-    color: white;
+    color: blue;
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -50,6 +50,6 @@ ul {
 li {
     padding: 10px;
     margin-bottom: 5px;
-    background-color: whitesmoke;
+    background-color: yellow;
     border-radius: 3px;
 }
