@@ -9,6 +9,10 @@ function addTask() {
 
     var li = document.createElement("li");
     li.textContent = taskInput.value;
+
+    li.onclick = function() {
+        li.classList.toggle("completed");
+    };
     var deleteBtn = document.createElement("button")
     deleteBtn.textContent = "❌";
     deleteBtn.onclick = function() {
