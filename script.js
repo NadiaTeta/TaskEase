@@ -10,7 +10,7 @@ function addTask() {
     var li = document.createElement("li");
     li.textContent = taskInput.value;
     var deleteBtn = document.createElement("button")
-    deleteBtn.textContent = "*";
+    deleteBtn.textContent = "❌";
     deleteBtn.onclick = function() {
         li.remove();
     };
